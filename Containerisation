@@ -1,9 +1,16 @@
 Interview questions
 
 1)	What is docker why we are using docker  difference between vm?
+- docker is a
 2)	What is docker cloud & how it is different from docker hub what is the features over docker hub ?
+- docker hub is place where we uplaod the images and common images can be shared. docker cloud is cloud provider for your docker images. docker cloud can be used 
+with docker swarm.
 3)	What is docker compose ?
+- Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. 
+Then, with a single command, you create and start all the services from your configuration. 
+https://docs.docker.com/compose/#multiple-isolated-environments-on-a-single-host
 4)	How you will link when the docker containers is in different virtual machine is there any configuration in docker compose file are any command or any variable?
+- I think if you setup networking correctly, they can communicate with each other.
 5)	What you will do if one master got corrupted, can we create multiple masters?
 6)	What you will do in case any pod deleted?
 7)	What is namespaces in kubernetes can you tell me some?
@@ -79,9 +86,9 @@ Dict=[c:10]
 1)	Current roles & responsibilities?
 
 2)	What is Docker compose?
-
+- 
 3)	What is Docker server version?
-
+- 
 4)	What are the advantages of Docker?
 
 5)	How do you setup Docker in Jenkins in production environment?
@@ -102,9 +109,9 @@ production environment in Jenkins?
 12)	What are the basic parameters required in the Docker compose file?
 
 13)	What is Docker interlock?
-
+- 
 14)	What is overlay networking?
-
+-
 15)	How to communicate between 2 containers present in separate network?
 
 16)	How to store the data present in the Docker container in the AWS?
@@ -127,11 +134,11 @@ data with the EFS, NFS?
     ii. Write a simple docker file to deploy a war file by using base images?
 
 23)	Difference between docker compose and docker swarm
-
+- docker compose is really not production grade and is good for on-prem. docker swarm and kubernetes are ccompareable.
 24)	Why we need to use docker compose?
-
+- to commect all the docker app in one yaml file and can be started and closed together.
 25)	Tell me about Docker Network
-
+- 
 26) What is the difference between Docker Swarm ,Compose and Kubernetes ?
 
 27) How does the containers communicate when the containers are running in different hosts?
