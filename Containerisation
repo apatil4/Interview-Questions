@@ -126,7 +126,13 @@ data with the EFS, NFS?
 20)	Why we need to mention dual ports(8080:8080) in docker run command
 
 21)	Differnce between Copy and Add
+COPY copies a file/directory from your host to your image.
 
+ADD copies a file/directory from your host to your image, but can also fetch remote URLs, extract TAR files, etc...
+
+Use COPY for simply copying files and/or directories into the build context.
+
+Use ADD for downloading remote resources, extracting TAR files, etc..
 22)	How to write a docker file to deploy a war file
  
     i. We have private repository and don’t have base images .how can deploy a war file?
