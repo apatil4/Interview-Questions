@@ -144,7 +144,11 @@ Use ADD for downloading remote resources, extracting TAR files, etc..
 24)	Why we need to use docker compose?
 - to commect all the docker app in one yaml file and can be started and closed together.
 25)	Tell me about Docker Network
-- 
+- docker adds rules in iptables to makes ure outside does not interact with containers. everu packet goes through docker chain rules
+- containers can talk to ecah other using user defined networks. i.e if two containers are in same network and name A nd B then, A can talk my nit ip address but just sayin
+  B:8080/test. I think the docker creates an itnernal DNS to resolve it. 
+- user defined networks provide better netowrk islocation. bridge networks containers are connected to each other via --link and are exposed to each other.
+- user defined network all post are exposed to the containers in that network.
 26) What is the difference between Docker Swarm ,Compose and Kubernetes ?
 
 27) How does the containers communicate when the containers are running in different hosts?
